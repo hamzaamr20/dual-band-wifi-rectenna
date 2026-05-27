@@ -4,12 +4,10 @@ This repository contains the physical manufacturing files, schematic documentati
 
 The system is designed to passively capture ambient electromagnetic radiation from 2.45 GHz and 5.80 GHz Wi-Fi infrastructures and convert it into a sustainable Direct Current (DC) reservoir for ultra-low-energy IoT devices. 
 
-**Project ID / Funding:** Supported by ITAC/ITIDA (Grant GP2026.R21.100) under the supervision of Dr. Hadeer Elhemaily.
-
 ## ⚙️ Hardware Specifications
 * **Target Frequencies:** 2.45 GHz and 5.80 GHz
 * **Measured Efficiency:** Peak 30% RF-to-DC conversion efficiency at 0 dBm input power.
-* **DC Yield:** 1.0V DC (2.45 GHz) and 0.2V DC (5.80 GHz)
+* **DC Yield:** 1.0V DC (2.45 GHz) and 0.2V DC (5.20 GHz)
 * **Substrate:** Commercial FR-4
 * **Rectifier Topology:** Voltage doubler utilizing the SMS7630-006LF series pair Schottky diodes.
 
@@ -24,7 +22,7 @@ The system is designed to passively capture ambient electromagnetic radiation fr
 * **Fabrication Toolchain:** The RF geometries were validated via co-simulation in Keysight ADS and CST Studio Suite before being routed for manufacturing execution.
 
 ## ⚠️ Hardware Tolerance Notice
-During physical validation via Vector Network Analyzer (VNA), minor frequency shifts may be observed compared to the simulated $S_{11}$ data. This is an expected artifact of the variable dielectric constant ($\epsilon_r$) inherent to commercial FR-4 substrates and standard fabrication etching tolerances. The rectifier network is designed with sufficient bandwidth to absorb these variations and maintain DC yield.
+During physical validation via Vector Network Analyzer (VNA), minor frequency shifts may be observed compared to the simulated $S_{11}$ data. This is an expected artifact of the variable dielectric constant (ϵ_r)) inherent to commercial FR-4 substrates and standard fabrication etching tolerances. The rectifier network is designed with sufficient bandwidth to absorb these variations and maintain DC yield.
 
 ---
 *Designed and engineered by Hamza Amr and the BUC graduation project team.*
