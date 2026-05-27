@@ -2,7 +2,7 @@
 
 This repository contains the physical manufacturing files, schematic documentation, and Bill of Materials (BOM) for a dual-band radio frequency (RF) energy harvesting rectenna. 
 
-The system is designed to passively capture ambient electromagnetic radiation from 2.45 GHz and 5.80 GHz Wi-Fi infrastructures and convert it into a sustainable Direct Current (DC) reservoir for ultra-low-energy IoT devices. 
+The system is designed to passively capture ambient electromagnetic radiation from 2.45 GHz and 5 GHz Wi-Fi bands infrastructures and convert it into a sustainable Direct Current (DC) reservoir for ultra-low-energy IoT devices. 
 
 ## ⚙️ Hardware Specifications
 * **Target Frequencies:** 2.45 GHz and 5.80 GHz
